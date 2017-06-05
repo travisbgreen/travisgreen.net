@@ -1,3 +1,6 @@
+### Hello World!
+Well, it's been a minute since I did anything with this domain, but it seems it is time to reuse it as a infrequently updated blog and place to find out what my latest major projects are. Thanks for visiting.
+
 ### Welcome to GitHub Pages.
 This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
 
