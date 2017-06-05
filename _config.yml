@@ -1,0 +1,8 @@
+title: travisgreen.net
+description: malware and musings
+google_analytics: UA-66565917-1
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
