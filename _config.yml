@@ -1,8 +1,11 @@
-title: travisgreen.net
-description: malware and musings
-google_analytics: UA-66565917-1
-show_downloads: true
-theme: jekyll-theme-hacker
+# Site settings
+title: travis green
+email: contact@travisgreen.net
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://travisgreen.net" # the base hostname & protocol for your site
+twitter_username: travisbgreen
+github_username:  travisbgreen
 
-gems:
-  - jekyll-mentions
+# Build settings
+markdown: kramdown
