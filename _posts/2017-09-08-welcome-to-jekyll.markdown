@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New projects!"
+title:  "New Projects!"
 date:   2017-09-08 07:28:19
-categories:
+tags: projects
 ---
-Welcome everyone to my gathering place for projects and lines of inquiry that I'd like to share. Stay tuned for more.
+Welcome to my focal point for project info. More to follow...
