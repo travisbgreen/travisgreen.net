@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Introducing Autoids"
+title:  "Introducing AutoIDS"
 categories:
 tags: autoids projects
 ---
 ## What is it?
-[Autoids](http://autoids.net){:target="_blank"} is a research tool running many versions of Suricata and Snort under one web app. You can use it to:
+[AutoIDS](http://autoids.net){:target="_blank"} is a research tool running many versions of Suricata and Snort under one web app. You can use it to:
 
 - check for malicious traffic
 - develop sigs
@@ -13,7 +13,7 @@ tags: autoids projects
 - test pcap for malicious traffic
 - check for INFO level events in traffic
  
-## Using autoids
+## Using AutoIDS
 To use it simply visit the front page and click the "upload" button, select the engine and ruleset you'd like to use, and press the "Process it" button. You can also submit from curl but be forewarned, endpoints and fields may change behind the scenes as we continue working on new features.
 
 ## Future 
