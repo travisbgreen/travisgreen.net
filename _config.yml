@@ -8,7 +8,7 @@ twitter_username: travisbgreen
 github_username:  travisbgreen
 google_analytics: UA-66565917-1
 
-theme: jekyll-theme-primer
+theme: jekyll-theme-minimal
 #theme: minimal-mistakes-jekyll
 
 kramdown:
