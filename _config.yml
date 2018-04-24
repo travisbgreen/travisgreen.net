@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://travisgreen.net" # the base hostname & protocol for your site
 twitter_username: travisbgreen
 github_username:  travisbgreen
+google_analytics: UA-66565917-1
 
 theme: jekyll-theme-primer
 #theme: minimal-mistakes-jekyll
