@@ -8,6 +8,7 @@ Have you ever cut/copied/pasted into a terminal window? Here's one of a few reas
 
 note -- another example here: view-source:https://security.love/Pastejacking/
 
+{::nomarkdown} ... 
 
     <p class="codeblock">
       <!-- Oh noes, you found it! credits go to http://thejh.net/misc/website-terminal-copy-paste-->
@@ -16,6 +17,6 @@ note -- another example here: view-source:https://security.love/Pastejacking/
       git://git.kernel.org/pub/scm/utils/kup/kup.git
     </p>
 
-
+{:/}
 
 
