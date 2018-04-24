@@ -1,10 +1,10 @@
 ---
-layout: "post"
-title: "dangerous clipboards"
-date: "2018-03-06 09:09"
+layout: post
+title: dangerous clipboards
+date: '2018-04-24 13:11'
 ---
-TEST post...
 
+Have you ever cut/copied/pasted into a terminal window? Here's one of a few reasons why you shouldn't:
 
     <p class="codeblock">
       <!-- Oh noes, you found it! credits go to http://thejh.net/misc/website-terminal-copy-paste-->
