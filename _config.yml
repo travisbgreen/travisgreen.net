@@ -7,8 +7,8 @@ url: "http://travisgreen.net" # the base hostname & protocol for your site
 twitter_username: travisbgreen
 github_username:  travisbgreen
 
-#theme: jekyll-theme-primer
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-primer
+#theme: minimal-mistakes-jekyll
 
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
