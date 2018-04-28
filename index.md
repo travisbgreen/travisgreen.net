@@ -5,6 +5,4 @@
 layout: home
 ---
 
-where do posts go?
-
-
+Hey, check this out:
