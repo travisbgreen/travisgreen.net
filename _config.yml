@@ -2,9 +2,7 @@ title: 'Travis Green'
 email: 'contact@travisgreen.net'
 #description: 
 description: >- # this means to ignore newlines until "baseurl:"
-"wandering is a worthwhile and noble act" -anon
-
-
+  "wandering is a worthwhile and noble act" -anon
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://travisgreen.net" 
 twitter_username: travisbgreen
