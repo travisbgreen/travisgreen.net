@@ -3,10 +3,7 @@ layout: post
 title: Dangerous Clipboards
 date: '2018-04-24 13:11'
 ---
-Have you ever cut/copied/pasted into a terminal window? Here's one of a few reasons why you shouldn't:
-
-
-
+Have you ever cut/copied/pasted into a terminal window? Here's are two reasons why you shouldn't:
 ### example 1:
 {::nomarkdown}
     <code>
@@ -16,9 +13,6 @@ Have you ever cut/copied/pasted into a terminal window? Here's one of a few reas
       git://git.kernel.org/pub/scm/utils/kup/kup.git
     </code>
 {:/}
-
-
-
 
 ### example 2:
 {::nomarkdown}
@@ -31,5 +25,6 @@ Have you ever cut/copied/pasted into a terminal window? Here's one of a few reas
                 e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
             });
         </script>
-
 {:/}
+
+Try them out by copying and pasting into bash like terminal window. Never trust a blog post!

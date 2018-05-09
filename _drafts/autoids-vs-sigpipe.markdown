@@ -4,4 +4,9 @@ title: "AutoIDS vs SIGPIPE"
 date: "2018-04-24 13:23"
 ---
 ### Round 1: SIGPIPE 1 -- AutoIDS 0
-A while back I ran into an issue using flask's built in webserver to serve AutoIDS where the app would simply hang. As part of troubleshooting, I would run it in a console window and when it would hang, I could still Ctrl+c, upon which 
+Have you ever used flask's built in webserver and thought "this is probably good enough to use for my little thing". Well, I've discovered that it isn't good for anything but local development. It took a few missteps to find out why. I deployed [AutoIDS](http://autoids.net) on a low cost VPS, fired up the .py file, and after a few hours/days, the app would simply hang. If you press ctrl+c in the console window, you'd see a fairly cryptic error message:
+
+```
+
+
+```

@@ -1,20 +1,22 @@
 title: 'Travis Green'
 email: 'contact@travisgreen.net'
-#description: 
 description: >- # this means to ignore newlines until "baseurl:"
-  "wandering is a worthwhile and noble act" -anon
+  malware and musings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://travisgreen.net" 
 twitter_username: travisbgreen
 github_username:  travisbgreen
 google_analytics: UA-66565917-1
+linkedin_username: travisbgreen
+
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
