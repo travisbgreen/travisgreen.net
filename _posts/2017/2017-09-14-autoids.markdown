@@ -4,8 +4,7 @@ title:  "Introducing AutoIDS"
 categories:
 tags: autoids projects
 ---
-## What is it?
-[AutoIDS](http://autoids.net){:target="_blank"} is a research tool running many versions of Suricata and Snort under one web app. You can use it to:
+[AutoIDS](http://autoids.net){:target="_blank"} is a new(ish) research tool running many versions of Suricata and Snort under one web app. You can use it to:
 
 - check for malicious traffic
 - develop sigs
