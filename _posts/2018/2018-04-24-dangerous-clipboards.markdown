@@ -3,7 +3,7 @@ layout: post
 title: Dangerous Paste
 date: '2018-04-24 13:11'
 ---
-How many times have we been working hard on an issue, searching forums, blogposts, stack overflow, etc, and come across a proposed solution that says "just paste this into your terminal"? Don't do it friends, it's a terrible idea. Problem is that it is easy to sneak extra commands into those cut/copy/pastes thusly:
+How many times have we been working hard on an issue, searching forums, blogposts, stack overflow, etc, and come across a proposed solution that says "just paste this into your terminal"? In the heat of the moment it is easy to forget that this situation deserves caution. The problem is that it is easy to sneak extra commands into those cut/copy/pastes thusly:
 
 **example 1:**
 {::nomarkdown}
