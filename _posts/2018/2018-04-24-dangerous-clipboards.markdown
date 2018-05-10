@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Dangerous Clipboards
+title: Dangerous Paste
 date: '2018-04-24 13:11'
 ---
-Have you ever cut/copied/pasted into a terminal window? Here's are two reasons why you shouldn't:
-### example 1:
+How many times have we been working hard on an issue, searching forums, blogposts, stack overflow, etc, and come across a proposed solution that says "just paste this into your terminal"? Don't do it friends, it's a terrible idea. Problem is that it is easy to sneak extra commands into those cut/copy/pastes thusly:
+
+**example 1:**
 {::nomarkdown}
     <code>
       <!-- Oh noes, you found it! credits go to http://thejh.net/misc/website-terminal-copy-paste-->
@@ -14,7 +15,7 @@ Have you ever cut/copied/pasted into a terminal window? Here's are two reasons w
     </code>
 {:/}
 
-### example 2:
+**example 2:**
 {::nomarkdown}
   <!-- credit to https://security.love/Pastejacking/ -->
  <code>echo "not evil"</code>
@@ -27,4 +28,4 @@ Have you ever cut/copied/pasted into a terminal window? Here's are two reasons w
         </script>
 {:/}
 
-Try them out by copying and pasting into bash like terminal window. Never trust a blog post!
+Try them out by copying and pasting into bash like terminal window, I promise they're 100% benign. Credits in source html.
