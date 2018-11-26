@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 10 commandments of computer security
+title: Online Safety -- Top 10 Tips
 date: '2018-11-25 12:02'
 ---
 
-# Online Safety Top 10 Tips
+# Online Safety -- Top 10 Tips
 
 1. Only install apps from the default authorized app store
 2. Never install something because you are asked to
