@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Online Safety -- Top 10 Tips
+title: Online Safety - Top 10 Tips
 date: '2018-11-25 12:02'
 ---
-
-# Online Safety -- Top 10 Tips
+These are my top tips for remaining safe online:
 
 1. Only install apps from the default authorized app store
 2. Never install something because you are asked to
@@ -18,3 +17,5 @@ date: '2018-11-25 12:02'
 10. Don't type personal info into any page not secured with a SSL (A lock appears in browser address bar)
 
 Stay safe out there!
+
+

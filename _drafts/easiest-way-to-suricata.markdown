@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "easiest way to suricata"
+title: "The Easiest Way to Suricata"
 date: "2018-05-20 09:54"
 ---
 
-I thought it might be nice to document the easiest way to get to network detection with suricata.
+The easiest way to get to network detection with suricata.
 
 **install suri**
 - [install via ppa](https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Ubuntu_Installation_-_Personal_Package_Archives_%28PPA%29)
