@@ -58,12 +58,3 @@ ET TROJAN Possible Compromised Host AnubisNetworks Sinkhole Cookie Value Snkz
   - http://jshlbrd.github.io/blog/2015/08/18/sinkholes/
   - https://augen.emergingthreatspro.com/admin/sidclear.php?sidhist=2018141
 
-
-
-
-
-Trainer
-Company NameThe Open Information Security Foundation
-Dates Employed2017 – Present
-Employment Duration2 yrs
-Teaching how to sling sigs
