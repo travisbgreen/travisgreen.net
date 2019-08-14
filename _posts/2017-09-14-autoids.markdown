@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Introducing AutoIDS"
+categories:
+tags: autoids projects
+---
+Have you ever been on the road or mobile, and you don't have a snort/suricata test environment set up? [AutoIDS](http://autoids.net){:target="_blank"} is a new(ish) research tool running many versions of Suricata and Snort in a web app. You can use it to:
+
+- check for malicious traffic
+- develop sigs
+- test basic sig performance
+- test pcap for malicious traffic
+- check for INFO level events in traffic
+ 
+## Using AutoIDS
+To use it simply visit the front page and click the "upload" button, select the engine and ruleset you'd like to use, and press the "Process it" button. If you're tricky, you can submit from curl but beware fields may change behind the scenes as we continue working on new features.
+
+## Future 
+Currently, we're focusing on making it a bit more pretty, building a slack bot interface, and working out some quirks with logfiles and older snort versions. Get in touch if there's a feature you'd like to see.
