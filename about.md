@@ -11,6 +11,6 @@ Travis holds multiple industry certifications including CISSP, Certified Ethical
 
 Specialties: leadership, security architecture, log correlation, penetration testing, vulnerability assessments, security design, security implementation, encryption.
 
-[resume / cv](https://travisgreen.net/assets/TravisGreen.pdf) 
+[resume / cv](http://travisgreen.net/assets/TravisGreen.pdf) 
 
 [linkedin profile](https://www.linkedin.com/in/travisgreen/)
