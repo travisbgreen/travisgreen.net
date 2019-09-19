@@ -5,6 +5,11 @@ date: "2019-09-13 12:09"
 ---
 
 # Cobalt Group Report
+
+**Update/correction**
+It has been brought to my attention that the attribution of this activity to cobalt group is not ironclad, it may change in the future.
+
+
 Recently an excellent report by [Checkpoint](https://research.checkpoint.com/cobalt-group-returns-to-kazakhstan/) was published explaining recent developments of the Cobalt Group threat actor group. The Checkpoint report covers a lot of interesting TTPs and the evolution of techniques and procedures, but for now we will focus on detecting the unique C2 used by the group.
 
 [Cobalt Group](https://attack.mitre.org/groups/G0080/) recap:
