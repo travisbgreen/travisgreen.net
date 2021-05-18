@@ -6,9 +6,6 @@ tags:
   - fp
   - emergingthreats
 ---
-
-# 2032936 Suspected Sliver DNS CnC FP Report
-
 ## Background
 
 It appears that SMTP MTAs or SMTP spam gateways utilizing [DKIM](https://support.dnsimple.com/articles/dkim-record/), make many `_domainkey` TXT requests and occasionally generates a false positive alert (FP) on rule 2032936. The source of these alerts is this bit of inexact rule logic, which sometimes matches legitimate requests `content:"_"; depth:1; content:"_domainkey"; distance:8;`  
@@ -39,11 +36,11 @@ We've added a PCRE with a relative ("/R") modifier to ensure the next 6 characte
 
 original rule:
 
-    alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (original)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:2032936; rev:1;)
+>```alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (original)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:2032936; rev:1;)```
 
 which becomes:
 
-    alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (modified)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; pcre:"/^[a-z0-9_]{6}[^a-z0-9_]/R"; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:9999999; rev:2;)
+>```alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (modified)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; pcre:"/^[a-z0-9_]{6}[^a-z0-9_]/R"; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:9999999; rev:2;)```
 
 ## Verify
 
@@ -52,4 +49,6 @@ So, now we verify that our fix is good (if we have the luxury of pcap). Truth be
 
 ## Conclusion
 
-The last thing to do is to submit to the mailing list and enjoy that sweet sweet open source community karma. I hope this has been useful, please DM with any rule analysis or FP/TP analysis requests.
+The last thing to do is to submit to the mailing list and enjoy that sweet sweet open source community karma. 
+
+Please [DM me](https://twitter.com/travisbgreen/) with any rule analysis or FP/TP analysis requests.
