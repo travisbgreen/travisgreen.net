@@ -42,7 +42,7 @@ original rule:
 
 >```alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (original)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:2032936; rev:1;)```
 
-which becomes:
+becomes:
 
 >```alert dns any any -> any any (msg:"ET TROJAN Suspected Sliver DNS CnC (modified)"; content:"|00 10 00 01|"; isdataat:!1,relative; content:"|00 10 00 01|"; isdataat:!1,relative; dns_query; content:"_"; depth:1; pcre:"/^[a-z0-9_]{6}[^a-z0-9_]/R"; content:"_domainkey"; distance:8; fast_pattern; reference:url,github.com/BishopFox/sliver; classtype:trojan-activity; sid:9999999; rev:2;)```
 
