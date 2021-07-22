@@ -23,12 +23,12 @@ Known abused storage as dropper site xbit set here:
 `alert tls $HOME_NET any -> $EXTERNAL_NET any (msg:"ET POLICY IPFS Domain (storage.snark .art in TLS SNI)"; flow:established,to_server; tls.sni; content:"myexternalip.com"; endswith; nocase; xbits:set,ET.dropsite,track ip_src;  classtype:policy-violation; sid:7704133; rev:1;)`
 
 Tor & final detection:  
-`alert tcp any ![21,25,110,143,443,465,587,636,989:995,5061,5222,8443] -> any any (msg:"ET MALWARE Possible DarkRats TOR Traffic"; flow:established,from_server; content:"|06 03 55 04 03|"; pcre:"/^.{2}www\.[0-9a-z]{8,20}\.com[01]/Rs"; content:"|06 03 55 04 03|"; distance:0; pcre:"/^.{2}www\.[0-9a-z]{8,20}\.net/Rs"; xbits:isset,ET.ipcheck,track ip_dst; xbits:isset,ET.dropsite,track ip_dst; classtype:trojan-activity; sid:7704134; rev:1;)`  
+`alert tcp any ![21,25,110,143,443,465,587,636,989:995,5061,5222,8443] -> any any (msg:"ET MALWARE Possible DarkRats Tor Traffic"; flow:established,from_server; content:"|06 03 55 04 03|"; pcre:"/^.{2}www\.[0-9a-z]{8,20}\.com[01]/Rs"; content:"|06 03 55 04 03|"; distance:0; pcre:"/^.{2}www\.[0-9a-z]{8,20}\.net/Rs"; xbits:isset,ET.ipcheck,track ip_dst; xbits:isset,ET.dropsite,track ip_dst; classtype:trojan-activity; sid:7704134; rev:1;)`  
 Note: `track ip_dst` here because this detects the Tor RESPONSE traffic.
 
 The final sig could probably also be a great HUNTING sig.
 Other HUNTING sig ideas:
-- TOR -> coinmining
+- Tor -> coinmining
 - IP Check -> HTTP POST
 - IP Check -> HTTP to frequently abused TLD
 
