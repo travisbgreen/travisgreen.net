@@ -14,7 +14,7 @@ date: "2022-02-03 11:02"
 
 Have you ever encountered a list like this and thought "I wish I could easily create a regex to cover all these possible values"?
 
-![@ymzkei5](regex.1.png)
+![@ymzkei5](/images/2022/02/03/regex.1.png)
 [source](https://twitter.com/ymzkei5/status/1469765165348704256)
 
 I have a linux based method to share which makes this task easy by leveraging an incredible Perl module called `Regexp::Assemble`
@@ -93,3 +93,8 @@ $ ~/scripts/suri.hunting.sh
 ```
 
 Hope that helps, and feel free to [@](https://twitter.com/travisbgreen) me with feedback.
+
+
+
+
+
