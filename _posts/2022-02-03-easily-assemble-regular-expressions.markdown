@@ -89,7 +89,7 @@ $ ~/scripts/suri.hunting.sh
 <...>
 3/2/2022 -- 11:58:01 - <Info> - Alerts: 1
 3/2/2022 -- 11:58:01 - <Info> - cleaning up signature grouping structure... complete
-02/02/2022-15:10:56.628683  [**] [1:2610826:1] TGI HUNT WAF MITM of HTTPS [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.96.175.18:39376 -> 1.1.1.1:80
+02/02/2022-15:10:56.628683  [**] [1:2610828:1] TGI HUNT Possible Log4shell Obfuscation Technique [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 10.96.175.18:39376 -> 1.1.1.1:80
 ```
 
 Hope that helps, and feel free to [@](https://twitter.com/travisbgreen) me with feedback.
