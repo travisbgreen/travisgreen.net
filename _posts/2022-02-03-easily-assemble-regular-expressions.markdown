@@ -75,12 +75,12 @@ Now we can add logic to account for preceeding characters
 
 Also, it seems every string following `${` also follows with a `:` character, so we add:
 
-`j[ndi]*${(?:(?:low|upp)er|(?:k8|sy)s|date|main|env|web|:):`
+`j[ndi]*\${(?:(?:low|upp)er|(?:k8|sy)s|date|main|env|web|:):`
 
 # Step 4 - use
 In my case, I'm writing a [hunting rule](https://github.com/travisbgreen/hunting-rules) for use in investigating URL payloads, so a suricata rule using this regex would look like this:
 
-`alert http $HOME_NET any -> any any (msg:"TGI HUNT Possible Log4shell Obfuscation Technique"; flow:established; http.uri; content:"${"; fast_pattern; pcre:"/j[ndi]*${(?:(?:low|upp)er|(?:k8|sy)s|date|main|env|web|:):/i"; reference:url,twitter.com/ymzkei5/status/1469765165348704256; classtype:bad-unknown; sid:2610828; rev:1;)`
+`alert http $HOME_NET any -> any any (msg:"TGI HUNT Possible Log4shell Obfuscation Technique"; flow:established; http.uri; content:"${"; fast_pattern; pcre:"/j[ndi]*\${(?:(?:low|upp)er|(?:k8|sy)s|date|main|env|web|:):/i"; reference:url,twitter.com/ymzkei5/status/1469765165348704256; classtype:bad-unknown; sid:2610828; rev:1;)`
 
 And a quick check shows that it is working:
 ```
@@ -89,7 +89,7 @@ $ ~/scripts/suri.hunting.sh
 <...>
 3/2/2022 -- 11:58:01 - <Info> - Alerts: 1
 3/2/2022 -- 11:58:01 - <Info> - cleaning up signature grouping structure... complete
-02/02/2022-15:10:56.628683  [**] [1:2610826:1] TGI HUNT WAF MITM of HTTPS [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.96.175.18:39376 -> 111.111.111.111:80
+02/02/2022-15:10:56.628683  [**] [1:2610826:1] TGI HUNT WAF MITM of HTTPS [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.96.175.18:39376 -> 1.1.1.1:80
 ```
 
 Hope that helps, and feel free to [@](https://twitter.com/travisbgreen) me with feedback.
