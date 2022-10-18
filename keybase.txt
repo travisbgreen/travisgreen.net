@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/travisgreen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://travisgreen.net
+  * I am travisgreen (https://keybase.io/travisgreen) on keybase.
+  * I have a public key ASDen5czofgQTtBalToc1X6E0LY4vG_NNj39pCOdoSQWlgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120de9f9733a1f8104ed05a953a1cd57e84d0b638bc6fcd363dfda4239da12416960a",
+      "host": "keybase.io",
+      "kid": "0120de9f9733a1f8104ed05a953a1cd57e84d0b638bc6fcd363dfda4239da12416960a",
+      "uid": "a237f14c4506f53626daf5ee15cefc19",
+      "username": "travisgreen"
+    },
+    "merkle_root": {
+      "ctime": 1666110990,
+      "hash": "925df99b0a0b300ebac1dbf9d067b8f9c9e6498410003d06dfde64944ae9d629a0c3ad2ea3c73acfde524122bf70b027ef11b2fcbcd34d93381e2572aa054ea4",
+      "hash_meta": "97cbc079e24c64bf5a426d29a0bbcd7aabd62228e4a921e1051bcdd96d535b85",
+      "seqno": 23391298
+    },
+    "service": {
+      "entropy": "J6RhzqbRNwaIEhshQBvPOFeA",
+      "hostname": "travisgreen.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1666111005,
+  "expire_in": 504576000,
+  "prev": "bd179477eef0f55b385d55f44e11ab0f7bcb4afd6972cc08150f5612a1f1a548",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3p+XM6H4EE7QWpU6HNV+hNC2OLxvzTY9/aQjnaEkFpYKp3BheWxvYWTESpcCDsQgvReUd+7w9Vs4XVX0ThGrD3vLSv1pcswIFQ9WEqHxpUjEIO6YejDlOvamIPpmPUuHdvF0oPrrJUUt5WBqKjdkmameAgHCo3NpZ8RANI/4AOOJZGfY/Buh8v6MZxEmN+QVuNlxdZzdIsmF/pMUovTgdXMFBRjoaIkmTzRoDC051rXU3ipI5yl8fNVFC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEGNaRk/KBPCKYpxjHqUM5P/A5fjetFow/uuVa6mdf6Ro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/travisgreen
+
+==================================================================
