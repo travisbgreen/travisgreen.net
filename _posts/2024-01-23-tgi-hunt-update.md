@@ -3,7 +3,8 @@ layout: post
 title:  "TGI HUNT Ruleset Update"
 categories: suricata 
 tags: suricata hunting ruleset
-published: false
+published: true
+date: "2024-01-23 09:30"
 permalink: /updates/20240123
 ---
 
