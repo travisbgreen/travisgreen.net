@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "About the Anubis Sinkhole"
 date: "2019-08-13 12:54"
 ---

@@ -1,11 +1,10 @@
 title: 'Travis Green'
-email: 'contact@travisgreen.net'
-description: >
-  malware and musings
+email: 'contact.@travisgreen.net'
+description: ""
 baseurl: ""
 url: "http://travisgreen.net"
 twitter_username: travisbgreen
 github_username:  travisbgreen
-google_analytics: G-P149WPNRPD
+google_analytics: G-8Q0RGWLLZH
 linkedin_username: travisgreen
 theme: jekyll-theme-minimal

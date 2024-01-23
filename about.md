@@ -1,14 +1,14 @@
 ---
-layout: page
-title: About
+layout: "page"
+title: "About"
 permalink: /about/
 ---
-Hey! I'm a senior cybersecurity professional with 20+ years of experience that includes extensive international work advising government and military clients, consulting to enterprise businesses on security strategy, mentoring teams in best practices, and leading execution of security initiatives. I currently serve as a Head of Research at DuskRise, a global enterprise edge security provider.
+Who is this Travis guy?
 
-From 2005 to 2013, I worked for various contracting outfits in the Middle East serving Department of Defense clients in Afghanistan and Kuwait with responsibility for securing classified and unclassified coalition networks. I began my technology career at Microsoft and was later an early employee for online gaming pioneer WildTangent as an engineer in their data center.
+I'm a senior cybersecurity professional with 20+ years of experience that includes international work advising government and military clients, consulting to enterprise businesses on security strategy, mentoring teams in best practices, and leading execution of security initiatives. I ~~currently~~ formerly serve as a Head of Research at DuskRise, a global enterprise edge security provider.
 
-I hold multiple industry certifications including CISSP, Certified Ethical Hacker, and SANS GCIA Gold certifications. I was a core team member of the Open Information Security Foundation where I was responsible for training and has delivering presentations at conferences, most recently at SuriCon 2017 in Prague. I was also a former CyberPatriot Mentor where I taught cyber ethics and defense skills to youth teams.
+I hold multiple certifications including CISSP, Certified Ethical Hacker, and SANS GCIA certifications. I was a core team member of the Open Information Security Foundation where I was responsible for training and has delivering presentations at conferences, most recently at SuriCon 2017 in Prague. I am also a former CyberPatriot Mentor where I taught cyber ethics and defense skills to troubled youth.
 
-Specialties: leadership, security architecture, log correlation, penetration testing, vulnerability assessments, security design, security implementation, encryption.
+I currently reside in Denver and am enjoying the endless outdoor recreation possibilities the area provides.
 
 [linkedin profile](https://www.linkedin.com/in/travisgreen/)
