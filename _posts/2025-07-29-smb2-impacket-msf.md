@@ -46,4 +46,4 @@ SMB::AlwaysEncrypt => false
 
 After making these changes, you can verify the SMB version using network capture tools like Wireshark or tcpdump to confirm SMB2 negotiation packets.
 
-These modifications ensure your red team tools generate the specific SMB2 traffic needed for detection rule testing. Just remember to document these changes for your team - and hope real attackers don't read your blog! 😉
+These modifications ensure your red team tools generate the specific SMB2 traffic needed for detection rule testing. Just remember to document these changes for your team - and hope attackers ~~don't~~ do read your blog! 😉
