@@ -1,0 +1,49 @@
+# Travis Green — travisgreen.net
+
+## About
+
+Travis Green is a staff security researcher at Corelight with 20+ years of experience in cybersecurity. He specializes in network detection engineering, Suricata/Zeek rule development, CVE research and exploit analysis, and building detection capabilities for enterprise and government clients.
+
+He holds CISSP, CEH, and SANS GCIA certifications. He is a former core team member of the Open Information Security Foundation (OISF), responsible for Suricata training and has presented at SuriCon. He is based in Denver, Colorado.
+
+Primary technical domains: network intrusion detection, Suricata, Zeek, packet analysis, CVE vulnerability research, malware analysis, detection engineering, Active Directory security.
+
+Contact: LinkedIn https://www.linkedin.com/in/travisgreen/
+
+## Posts
+
+> A curated index of blog posts, most recent first.
+
+- [CVE-2026-41089: Chasing a Ghost Through Netlogon](https://travisgreen.net/2026/06/09/CVE-2026-41089-netlogon.html) — Deep analysis of a CVSS 9.8 Netlogon buffer overflow on Domain Controllers: patch-diff walkthrough, lab exploitation constraints (NtVer routing + domain name length), and a working Suricata detection rule.
+
+- [The Port Scoping Paradox: When Optimization Makes Things Slower](https://travisgreen.net/2026/02/12/port-scoping-paradox.html) — Counterintuitive discovery that port scoping in Suricata rules increases CPU usage 20-30% when traffic is already on target ports; benchmarks and practical guidance.
+
+- [CVE-2025-8088: WinRAR NTFS ADS Path Traversal Vulnerability Analysis](https://travisgreen.net/2025/08/11/CVE-2025-8088.html) — Analysis of a WinRAR path traversal bug exploiting NTFS Alternate Data Streams; includes malware analysis and detection guidance.
+
+- [Setting impacket & Metasploit to use SMB2](https://travisgreen.net/2025/07/29/smb2-impacket-msf.html) — How to force impacket and Metasploit to generate SMB2 traffic for detection rule development in an Active Directory lab.
+
+- [Hunting for browser extension abuse](https://travisgreen.net/2025/04/15/browser-extension-abuse.html) — Investigation of Discord stealers targeting cryptocurrency wallet browser extensions; introduces TGI HUNT detection rules for browser extension ID strings in HTTP.
+
+- [TGI HUNT Ruleset Update (January 2024)](https://travisgreen.net/updates/20240123) — Update to the TGI HUNT Suricata hunting ruleset.
+
+- [Arbitrary File Read in Jenkins via args4j (CVE-2024-23897)](https://travisgreen.net/2024/01/25/jenkins-arg4j-CVE-2024-23897.html) — Analysis of a critical arbitrary file read vulnerability in Jenkins via the args4j CLI parsing library.
+
+- [Behavorial xbits with Suricata](https://travisgreen.net/2021/07/22/behavioral-xbits.html) — Technique for stateful multi-session detection using Suricata xbits; applied to DeepRats malware.
+
+- [2032936 - Suspected Sliver DNS CnC FP Report](https://travisgreen.net/2021/05/18/2032936-suspected-sliver-dns-cnc-fp-report.html) — False positive investigation for an Emerging Threats Suricata rule detecting Sliver DNS C2.
+
+- [Easily Assemble Regular Expressions](https://travisgreen.net/2022/02/03/easily-assemble-regular-expressions.html) — Tooling and techniques for building complex regular expressions for network detection.
+
+- [Cobalt Group Report](https://travisgreen.net/2019/09/13/cobalt-group-report.html) — Analysis of Cobalt Group threat actor TTPs and network indicators.
+
+- [Machete Malware Unsheathed](https://travisgreen.net/2019/08/14/machete-malware.html) — Analysis of the Machete cyberespionage malware following ESET reporting; develops Suricata signatures.
+
+- [About the Anubis Sinkhole](https://travisgreen.net/2019/08/13/anubis-sinkhole.html) — Explains what the Anubis Networks sinkhole is and how to interpret IDS alerts for it.
+
+- [Online Safety - Top 10 Tips](https://travisgreen.net/2018/11/25/Online-Safety_Top-10-Tips.html) — Practical personal cybersecurity tips for general audiences.
+
+- [Dangerous Paste](https://travisgreen.net/2018/04/24/dangerous-clipboards.html) — Security risk of pasting untrusted commands into terminal; demonstrates clipboard hijacking techniques.
+
+- [AutoIDS vs SIGPIPE](https://travisgreen.net/2018/05/10/autoids-vs-sigpipe.html) — Engineering post on handling SIGPIPE in the AutoIDS web service.
+
+- [Introducing AutoIDS](https://travisgreen.net/2017/09/14/autoids.html) — Introduces AutoIDS, a web-based Suricata/Snort testing environment for rule development without a local lab.

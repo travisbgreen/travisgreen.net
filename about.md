@@ -3,12 +3,30 @@ layout: "page"
 title: "About"
 permalink: /about/
 ---
-Who is this Travis guy?
+## Travis Green — Staff Security Researcher
 
-I'm a senior cybersecurity professional with 20+ years of experience that includes international work advising government and military clients, consulting to enterprise businesses on security strategy, mentoring teams in best practices, and leading execution of security initiatives. I currently work at open source pioneer Corelight as a staff security researcher.
+I'm a staff security researcher at [Corelight](https://corelight.com) with 20+ years of experience in cybersecurity. My work focuses on network detection engineering — building, testing, and tuning detection rules that catch real threats on real networks.
 
-I hold multiple certifications including CISSP, Certified Ethical Hacker, and SANS GCIA certifications. I was a core team member of the Open Information Security Foundation where I was responsible for training and has delivering presentations at conferences, most recently at SuriCon 2017 in Prague. I am also a former CyberPatriot Mentor where I taught cyber ethics and defense skills to troubled youth.
+### Core Technical Focus
 
-I currently reside in Denver and am enjoying the endless outdoor recreation possibilities the area provides.
+- **Network detection engineering** — Suricata and Zeek rule development, signature logic, performance tuning
+- **CVE research** — patch-diffing, lab exploitation, exploitability assessment, detection development
+- **Malware analysis** — threat actor TTP analysis, network indicator extraction, C2 protocol reverse engineering
+- **Active Directory security** — SMB/LDAP/Kerberos protocol detection, lateral movement, domain attack techniques
+- **Threat hunting** — developing and maintaining the [TGI HUNT](https://travisgreen.net/updates/20240123) Suricata ruleset
 
-[linkedin profile](https://www.linkedin.com/in/travisgreen/)
+### Certifications
+
+- CISSP (Certified Information Systems Security Professional)
+- CEH (Certified Ethical Hacker)
+- SANS GCIA (GIAC Certified Intrusion Analyst)
+
+### Background
+
+I'm a former core team member of the Open Information Security Foundation (OISF), where I led Suricata training and delivered presentations internationally, including SuriCon 2017 in Prague. I have 20+ years of experience spanning government and military advisory work, enterprise security consulting, and hands-on detection engineering. I am also a former CyberPatriot Mentor.
+
+I currently reside in Denver, Colorado.
+
+### Contact
+
+[LinkedIn profile](https://www.linkedin.com/in/travisgreen/) · [GitHub](https://github.com/travisbgreen)
