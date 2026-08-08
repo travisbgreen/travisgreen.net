@@ -9,3 +9,9 @@ _mdwriter.cson
 .dolt/
 *.db
 .beads-credential-key
+
+# Private agent/workflow files — must NOT be on the public gh-pages site (leakage cleanup 2026-08-07).
+# NOTE: llms.txt + AGENTS.md are INTENTIONALLY public (agent-facing site positioning) — do NOT ignore them.
+.claude/
+.beads/
+CLAUDE.md

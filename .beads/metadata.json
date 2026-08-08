@@ -1,7 +1,0 @@
-{
-  "database": "dolt",
-  "backend": "dolt",
-  "dolt_mode": "embedded",
-  "dolt_database": "repo_travisgreen_net",
-  "project_id": "9c1951cb-cc99-4a28-b9aa-3915916d98f2"
-}
